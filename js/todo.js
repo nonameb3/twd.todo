@@ -1,3 +1,3 @@
 if (jQuery){
-	alert("jQuery Connect!!");
+	console.log("jQuery Connect!!");
 }
