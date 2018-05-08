@@ -17,9 +17,6 @@ $("input").keypress(function(event) {
     if (event.which == 13) {
         var text = this.value;
         $(this).val("");
-        $("ul").append("<li><span>X </span>" + text + "</li>");
-
-    } else {
-        console.log("nope")
-    }
+        $("ul").append("<li><span><i class='fas fa-trash-alt'></i></span>" + text + "</li>");
+    } 
 });
