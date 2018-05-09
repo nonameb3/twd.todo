@@ -20,3 +20,7 @@ $("input").keypress(function(event) {
         $("ul").append("<li><span><i class='fas fa-trash-alt'></i></span>" + text + "</li>");
     } 
 });
+
+$(".fa-plus").click(function(){
+    $("input").fadeToggle( "fast")
+});

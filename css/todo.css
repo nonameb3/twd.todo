@@ -8,19 +8,6 @@ body{
 	font-family: 'Lato', sans-serif;
 }
 
-.fa-plus{
-    float: right;
-}
-
-.Main {
-    width: 350px;
-    background-color: white;
-    margin: 100px auto;
-    -webkit-box-shadow: 2px 4px 22px 1px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 2px 4px 22px 1px rgba(0, 0, 0, 0.75);
-    box-shadow: 2px 4px 22px 1px rgba(0, 0, 0, 0.75);
-}
-
 h1 {
     background-color: #2980b9;
     color: white;
@@ -76,7 +63,7 @@ li {
     background-color: #fff;
     height: 40px;
     line-height: 40px;
-    color: #666;
+    color: #3B4045;
 }
 
 li:nth-child(even) {
@@ -86,4 +73,17 @@ li:nth-child(even) {
 .line-thorough {
     color: gray;
     text-decoration: line-through;
+}
+
+.fa-plus{
+    float: right;
+}
+
+.Main {
+    width: 350px;
+    background-color: white;
+    margin: 100px auto;
+    -webkit-box-shadow: 2px 4px 22px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 4px 22px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 4px 22px 1px rgba(0, 0, 0, 0.75);
 }
