@@ -26,7 +26,7 @@ function runjQuery(){
         if (event.which == 13) {
             var text = this.value;
             $(this).val("");
-            $("ul").append("<li><span><i class='fas fa-trash-alt'></i></span>" + text + "</li>");
+            $("ul").append("<li><span><a href='#'><i class='fas fa-trash-alt'></i></a></span>" + text + "</li>");
         } 
     });
 
